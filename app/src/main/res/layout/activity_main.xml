@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context="tadumadzeratimayadanelia.coinflip.MainActivity">
+
+    <ImageView
+        android:id="@+id/coin"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:background="@drawable/heads"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp" />
+
+    <Button
+        android:id="@+id/flip"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:padding="20sp"
+        android:text="დატრიალება"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/coin"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:text="© Tadumadze Rati , Maya Danelia " />
+
+
+
+</RelativeLayout>
