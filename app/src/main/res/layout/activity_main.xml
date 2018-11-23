@@ -11,7 +11,7 @@
         android:id="@+id/coin"
         android:layout_width="200sp"
         android:layout_height="200sp"
-        android:background="@drawable/heads"
+        android:background="@mipmap/front_side"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100sp" />
 

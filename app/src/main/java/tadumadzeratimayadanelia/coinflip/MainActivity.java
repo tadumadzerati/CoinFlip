@@ -36,15 +36,14 @@ public class MainActivity extends AppCompatActivity {
                 side = r.nextInt(2);
 
                 if (side == 0) {
-                    iv.setImageResource(R.drawable.heads);
+                    iv.setImageResource(R.mipmap.front_side);
                     Toast.makeText(MainActivity.this, "საფასური!", Toast.LENGTH_SHORT).show();
 
                 }else if(side == 1){
-                    iv.setImageResource(R.drawable.tails);
+                    iv.setImageResource(R.mipmap.back_side);
                     Toast.makeText(MainActivity.this, "გერბი!", Toast.LENGTH_SHORT).show();
                 }
 
-                //FOR ROTATION
 
                 RotateAnimation rotate = new RotateAnimation(0, 360,
                         RotateAnimation.RELATIVE_TO_SELF, 0.5f, RotateAnimation.RELATIVE_TO_SELF, 0.5f);
